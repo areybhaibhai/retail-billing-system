@@ -1,1 +1,1 @@
-G drive link pedtha for yolov3.weights
+# Google drive link to download yolov3.weights -
