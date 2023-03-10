@@ -19,7 +19,7 @@ for folder in Labels:
         print("Wrong Input..........")
         exit()
 
-    while count < 20:
+    while count < 100:
 
         status, frame = camera.read()
 
