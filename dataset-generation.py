@@ -33,7 +33,7 @@ for folder in Labels:
         hsv = cv.resize(hsv, (28,28))
 
         cv.imwrite('./dataset/' +
-                   folder+'/img/img'+str(count)+'.png',hsv)
+                   folder+'/img/'+folder+'_'+'img'+str(count)+'.png',hsv)
         count = count+1
 
         if cv.waitKey(1) == ord('q'):
